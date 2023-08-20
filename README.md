@@ -4,33 +4,33 @@ Welcome to FitMe, a comprehensive gym management system designed to streamline g
 
 ## Salient Features
 
-### Member Management
+### 1. Member Management
 - **Registration**: Efficiently register new members with their personal details and fitness goals.
 - **Profile Management**: Members can update their profiles, including contact information, fitness goals, and progress.
 - **Membership Plans**: Easily manage various membership plans, durations, and pricing.
 - **Attendance Tracking**: Keep track of member attendance and workout frequency.
 
-### Schedule and Booking
+### 2. Schedule and Booking
 - **Class Scheduling**: Create and manage fitness classes, specifying instructors, time slots, and locations.
 - **Booking System**: Members can book class slots and sessions through the system.
 - **Reminders**: Automated reminders for upcoming classes or booked sessions.
 
-### Fitness Tracking
+### 3. Fitness Tracking
 - **Workout Logs**: Members can log their workouts and track progress over time.
 - **Progress Tracking**: Graphical representations of progress based on workout logs and measurements.
 - **Personalized Recommendations**: Provide personalized workout suggestions based on members' goals and progress.
 
-### Diet and Nutrition
+### 4. Diet and Nutrition
 - **Diet Plans**: Design and assign diet plans tailored to members' fitness objectives.
 - **Nutrition Tracking**: Members can log their daily meals and track calorie intake.
 - **Recipe Library**: Access to a library of healthy recipes and meal ideas.
 
-### Billing and Payments
+### 5. Billing and Payments
 - **Billing**: Automated billing for membership fees, class bookings, and additional services.
 - **Payment Gateways**: Integration with popular payment gateways for easy online payments.
 - **Invoices**: Members can view and download invoices and payment history.
 
-### Reports and Analytics
+### 6. Reports and Analytics
 - **Member Reports**: Generate reports on member attendance, progress, and engagement.
 - **Financial Reports**: Track revenue, billing, and payment trends for informed decision-making.
 - **Usage Analytics**: Analyze class popularity, peak hours, and equipment usage.
