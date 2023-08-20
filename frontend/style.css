@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: left;
+  background: #fff;
+  /* background: linear-gradient(-135deg, #c850c0, #4158d0); */
+}
+::selection{
+  background: #4158d0;
+  color: #fff;
+}
+.wrapper{
+  width: 400px;
+  margin-top :80px;
+  margin-left:240px;
+  margin-bottom:100px;
+  background: #fff;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  
+  width: 50px;
+  text-align: center;
+  align:center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+	margin-top:-600px;
+	height:100px;
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+		margin-top:-500px;
+	height:100px;
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+		margin-top:-400px;
+	height:100px;
+  background: #3f729b;
+  color: white;
+}
+.wrapper .title{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  user-select: none;
+  border-radius: 15px 15px 0 0;
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+.wrapper form{
+  padding: 10px 30px 50px 30px;
+}
+.wrapper form .field{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+.wrapper form .field input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  padding-left: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.wrapper form .field label{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  color: #999999;
+  font-weight: 400;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+
+form .content{
+  display: flex;
+  width: 100%;
+  height: 70px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-around;
+}
+form .content .checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form .content input{
+  width: 15px;
+  height: 15px;
+  background: red;
+}
+.left_area {
+    margin-top:0px;
+    margin-left : 0px;
+	height:40px;
+}
+    .left_area h3 {
+    background: linear-gradient(320deg, #c850c0, #4158d0);
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 35px;
+	text-align:center;
+    font-weight: 900;
+    color: #fff;
+}
+
+.left_area span {
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+form .content label{
+  color: #262626;
+  user-select: none;
+  padding-left: 5px;
+}
+.img1 {
+    margin-top: -500px;
+    margin-left: 500px;
+}
+form .field input[type="submit"] {
+    color: #fff;
+    border: none;
+    padding-left: 0;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+form .field input[type="submit"]:active{
+  transform: scale(0.95);
+}
+form .signup-link{
+  color: #262626;
+  margin-top: 20px;
+  text-align: center;
+}
+copy .center
+{
+	text-align:center;
+	margin-top:-300px;
+	text
+}
+form .pass-link a,
+form .signup-link a{
+  color: #4158d0;
+  text-decoration: none;
+}
+form .pass-link a:hover,
+form .signup-link a:hover{
+  text-decoration: underline;
+}

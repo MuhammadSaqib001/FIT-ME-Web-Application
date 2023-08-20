@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>FitMe Login Form</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="left_area">
+             <h3><i>FitMe Gym</i></h3>
+         </div>
+		 
+    <div class="wrapper">
+        <div class="title">
+            FIT-ME Login
+        </div>
+		
+	<div id="errorMsg" style="visibility: hidden">
+		<h6 style="color:red;text-align:center;font-size:15px">*Incorrect Credentials</h6>
+	</div>
+<script>
+	const urlSearchParams = new URLSearchParams(window.location.search);
+	const params = Object.fromEntries(urlSearchParams.entries());
+	console.log(params.wrong)
+	if (params.wrong) 
+	{
+		 document.getElementById('errorMsg').style.visibility='visible';
+	}
+</script>
+
+        <form action="./FIT_ME.php" method="POST">
+            <div class="field">
+                User_ID<input type="text" name="logid" required>
+                
+            </div>
+            <div class="field">
+                Password <input type="password" name="passcode" required>
+
+            </div>
+			
+            <div class="content">
+                <div class="pass-link">
+                    <a href="Password.html">Forgot password?</a>
+                </div>
+            </div>
+
+            <div class="field">
+                <input type="submit" name="login" value="Login">
+            </div>
+            <div class="signup-link">
+                Not a member? <a href="Register.html">Register Now</a>
+            </div>
+        </form>
+		<img class="img1" src="design.png">
+    </div>
+<a href="https://www.facebook.com/search/top?q=rasib%20zaman" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/visualthetic/" class="fa fa-instagram"></a>
+<div class="copy">
+<center>© 2021 FitMe DB_LAB Project 19I-0494 & 19I-0409 .  All rights reserved</center>
+</div>
+</body>
+</html>
