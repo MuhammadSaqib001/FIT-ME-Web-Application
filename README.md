@@ -43,8 +43,6 @@ Welcome to FitMe, a comprehensive gym management system designed to streamline g
 
 ![User Interface](https://github.com/MuhammadSaqib001/FIT-ME-Web-Application/blob/main/images/1625262475145.jpg)
 
-![User Interface](https://github.com/MuhammadSaqib001/FIT-ME-Web-Application/blob/main/images/1625262475243.jpg)
-
 ## Getting Started
 To set up and run FitMe, follow the steps in the [Installation Guide](INSTALLATION.md).
 
