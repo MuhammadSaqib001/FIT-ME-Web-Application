@@ -1,4 +1,4 @@
-# FitMe Gym Management System
+# FITME Database BS Project
 
 Welcome to FitMe, a comprehensive gym management system designed to streamline gym operations, enhance member experiences, and provide a robust set of features for both gym owners and members.
 
